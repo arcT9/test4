@@ -11,8 +11,8 @@ server = 'mysqlserveradb.database.windows.net'
 database = 'archana'
 username = 'archanat'
 password = 'Dheeraj92'
-#driver= '{ODBC Driver 17 for SQL Server}'
-driver='/usr/local/lib/libmsodbcsql.17.dylib'
+driver= '{ODBC Driver 17 for SQL Server}'
+
 
 @app.route('/')
 def hello():
