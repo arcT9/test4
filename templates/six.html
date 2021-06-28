@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+body {
+  background-color: hsl(89, 43%, 51%);
+}
+    </style>
+    <h1 style="text-align: center;background-color:LightGray;font-family:tahoma;">The Results</h1>  
+</head>
+<body>
+  <h2>Total results derived {{count}}</h2><br>
+    {% for i in row%}
+     <b>Volcano Name: {{i["Volcano_Name"]}}</b> <b>Country: {{i["Country"]}}</b> <b>Region: {{i["Region"]}}</b> <b>Number: {{i["Number"]}}</b> <b>Longitude: {{i["Longitude"]}}</b> <br>
+    {% endfor %}
+    </body>
+</html>
